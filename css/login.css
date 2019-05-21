@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/login/1.png");
+    background-repeat: no-repeat;
+    font-family: "Microsoft YaHei","Lucida Grande","Lucida Sans Unicode",Tahoma,Helvetica,Arial,sans-serif;
+}
+
+ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0;
+}
+
+ul img {
+    margin: 0;
+    width: auto;
+    height: auto;
+    display: none;
+    position: fixed;
+}
+
+p {
+    display: block;
+    height: 45px;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+
+}
+
+.login {
+    width: 498px;
+    height: auto;
+    position: fixed;
+    top: 25%;
+    left: 35%;
+    box-shadow: 10px 5px 70px #0d957a;
+    border-radius: 4px;
+    border: 1px solid #909090;
+}
+
+.login-head {
+    height: 96px;
+    width: 96px;
+    margin: auto;
+}
+
+.login-user {
+    width: 285px;
+    height: 40px;
+    border: solid 1px white;
+    border-radius: 4px;
+    margin: 20px 50px 20px 110px;
+    background: rgba(15, 15, 15, 0.15);
+}
+
+.login-user input {
+    /*display: inline-block;*/
+    border: 0px;
+    /*background: rgba(15, 15, 15, .15);*/
+    background-color: transparent;
+    font-size: 14px;
+    color: gray;
+}
+
+.login-user input:focus {
+    outline: none;
+}
+
+.login-user p {
+    display: inline-block;
+    padding: 0;
+    margin: 0 20px;
+    line-height: 40px;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#submit {
+    background-color: #ff730e;
+    border: 0px;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+}
+#submit:hover{
+    background-color: #ef4300;
+    cursor: pointer;
+}
+#submit:focus{
+    outline: none;
+    background-color: #ff730e;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 30px 0 rgba(255,255,255,.25);
+}
