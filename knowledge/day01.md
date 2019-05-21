@@ -17,6 +17,7 @@
 - border-radius圆角控制
 - input:focus{outline:none}控制聚焦文本输入框时外边框的颜色为没有
 - cursor:pointer鼠标浮上去变成手的形状
+- opacity设置透明度级别
 
 ## JS
 
